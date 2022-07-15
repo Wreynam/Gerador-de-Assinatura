@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+h1{
+    margin-bottom: -10px;
+}
+.templates{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 600px;
+    height: 180px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}

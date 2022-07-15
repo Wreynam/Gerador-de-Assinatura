@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap');
+.assinatura{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.img-profile{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img-icon{
+    height: 30px;
+}
+.nome-inteiro{
+    font-family: 'Karantina';
+    font-size: 200%;
+    margin-bottom: -20px;
+}
+.dados-pessoais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    min-width: 280px;
+}
+.dados{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 0 20px 20px 0;
+    height: 170px;
+    width: 150px;
+}
+.nome-empresa{
+    font-size: 150%;
+}
+.link-site{
+    font-size: 120%;
+}

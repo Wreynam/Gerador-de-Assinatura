@@ -1,0 +1,56 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    background-color: grey;
+    flex-wrap: wrap;
+}
+.formulario{
+    margin-right: 200px;
+    
+}
+.inputs{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.inputs input{
+    height: 20px;
+    width: 300px;
+}
+.inputs p{
+    width: 150px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.assinatura{
+    display: flex;
+    background-color: white;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.img-profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.img-icon{
+    display: flex;
+    align-items: center;
+}
+.img-icon img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.button{
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: #44b4b6;
+}

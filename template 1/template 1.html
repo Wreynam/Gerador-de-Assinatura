@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../padrao.css" />
+    <link rel="stylesheet" type="text/css" href="template 1.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="formulario" >
+        <form>
+            <div class="inputs">
+                <p>Nome:</p><input type="text" id="nome">
+            </div>
+            <div class="inputs">
+                <p>Link Imagem</p><input type="text" id="linkImagem">
+            </div>
+            <div class="inputs">
+                <p>Cargo:</p><input type="text" id="cargo">
+            </div>
+            <div class="inputs">
+                <p>Telefone:</p><input type="tel" id="telefone">
+            </div>
+            <div class="inputs">
+                <p>Email:</p><input type="email" id="email">
+            </div>
+            <div class="inputs">
+                <p>Nome Empresa:</p><input type="text" id="nomeEmpresa">
+            </div>
+            <div class="inputs">
+                <p>Link Site:</p><input type="text" id="linkSite">
+            </div>
+        </form>
+    </div>
+    <div class="content">
+        <div class="assinatura" id="assinaturaCompleta">
+            <img src="https://th.bing.com/th/id/R.cdcdd744f67152de17b7bcc36582daff?rik=kFxfEWaTsu30QA&pid=ImgRaw&r=0" alt="" class="img-profile" alt="Foto de Perfil" id="linkImagem-campo">
+            <div class="dados-pessoais">
+                <p class="nome-inteiro" id="nome-campo">Nome Inteiro
+                </p>
+                <p class="cargo" id="cargo-campo">Cargo</p>
+                <div class="img-icon">
+                    <img src="https://img.icons8.com/ios-filled/344/phone.png" alt="">
+                    <p id="telefone-campo">12 112345-5678</p>
+                </div>
+                <div class="img-icon">
+                    <img src="https://img.icons8.com/small/344/filled-message.png" >
+                    <p id="email-campo">email@hotmail.com</p>
+                </div>
+            </div>
+            <div class="dados">
+                <p class="nome-empresa" id="nomeEmpresa-campo">Nome da Empresa</p>
+                <a class="link-site" id="linkSite-campo" href="">Link Site</a>
+            </div>
+        </div>
+        <div class="div-button" >
+            <button type="submit" id="btn-copiar" class="button">
+                <p>Copiar para a área de Transferência</p>
+            </button>
+        </div>
+    </div>
+    <script src="../inputs.js"></script>
+</body>
+</html>

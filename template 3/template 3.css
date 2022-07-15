@@ -1,0 +1,47 @@
+.assinatura{
+    display: flex;
+    max-width: 800px;
+    height: 200px;
+    background-color: white;
+    
+}
+.img-profile{
+    margin-top: 25px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.nome-inteiro{
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.nome-empresa{
+    margin-bottom: 5px;
+}
+.cargo{
+    margin-bottom: -15px;
+}
+.img-icon{
+    margin-right: 10px;
+}
+.decoration{
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.outros-dados{
+    margin-top: 20px;
+    display: flex;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    max-width: 395px;
+    
+}
+.decoration{
+    height: 2px;
+    min-width: 270px;
+    background-color: black;
+    margin-bottom: -10px;
+    margin-right: 20px;
+}
